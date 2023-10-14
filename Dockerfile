@@ -1,7 +1,6 @@
 # Use an official PHP image as the base image.
 FROM php:7.4-apache
 
-RUN amazon-linux-extras install -y docker
 # Install required extensions and dependencies.
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
