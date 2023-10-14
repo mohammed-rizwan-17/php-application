@@ -1,4 +1,4 @@
 # php-application
 php-application
 
-test-php
+test-php -test
