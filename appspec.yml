@@ -3,13 +3,13 @@ os: linux
 files:
   - source: /
     destination: /var/www/html
-permissions:
-  - object: /
-    pattern: "**"
-    owner: root
-    group: root
-# hooks:
-#   ApplicationStart:
-#     - location: /scripts/application_start.sh
-#       timeout: 300
-#       runas: root
+
+hooks:
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/application_start.sh
+      timeout: 300
+      runas: root
