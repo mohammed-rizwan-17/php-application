@@ -1,2 +1,2 @@
 #!/bin/bash
-docker stop my-php-app
+#docker stop my-php-app
