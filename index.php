@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DEV Simple PHP Form</title>
+    <title>Bitcot PHP form</title>
 </head>
 <body>
-    <h1>DEV Simple PHP Form</h1>
+    <h1>Bitcot PHP form</h1>
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
