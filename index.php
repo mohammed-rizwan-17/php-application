@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>User Application login</title>
+    <title>Simple PHP Form</title>
 </head>
 <body>
-    <h1>User Application login</h1>
+    <h1>Simple PHP Form</h1>
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
