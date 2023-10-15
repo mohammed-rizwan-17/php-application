@@ -12,9 +12,9 @@
         $email = $_POST['email'];
 
         // Database connection settings
-        $host = 'php-database.cshydezitgxs.us-east-1.rds.amazonaws.com';
+        $host = 'prod-php-app-db.czv5zhjj9how.ap-south-1.rds.amazonaws.com';
         $user = 'admin';
-        $password = 'OLuO8QCHmS8CRTGS4cpf';
+        $password = '9ZIeTGPaatGFdlQsbIuk';
         $database = 'php';
 
         // Create a connection to the MySQL database
